@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="carcatalog.xsl"?>
+<catalog>
+   <car>
+    <brand>BMW</brand>
+    <model>M4</model>
+    <price>1.33 Crore</price>
+    <year>2015</year>
+    </car>
+
+  <car>
+    <brand>Audi</brand>
+    <model>A7</model>
+    <price>1 Crore</price>
+    <year>2013</year>
+    </car>
+  <car>
+    <brand>Bughatti</brand>
+    <model>Veyron</model>
+    <price>12 Crore</price>
+    <year>2015</year>
+    </car>
+
+</catalog>

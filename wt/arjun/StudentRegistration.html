@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Student Registration Form</title>
+		<link rel="stylesheet" href = "style.css">
+		<script type = "text/javascript" src = "vali.js"></script>
+	</head>
+
+	<body>
+		<div class="square">
+
+			<h2>Student Registration Form</h2>	
+
+			<form action = "welcome.html" method="post" name="StudentRegistration">	
+				<table  cellpadding = "10">
+
+					<tr>
+					<td>FULL NAME</td>
+					<td><input type="text" name="Full_Name" size= "35"/></td>
+					</tr>
+
+					<tr>
+					<td>LAST NAME</td>
+					<td><input type="text" name="Last_Name" size = "35"/></td>
+					</tr>
+
+					<tr>
+					<td>Date of Birth</td>
+					<td><input type = "date" name = "BirthDate" size = "35"></td>
+					</tr>
+
+					<tr>
+					<td>EMAIL ID</td>
+					<td><input type="email" name="Email_Id" size = "35"/></td>
+					</tr>
+
+
+
+					<tr>
+					<td>MOBILE NUMBER</td>
+					<td><input type="number" name="Mobile_Number" maxlength="10" />
+					(10 digit number)
+					</td>
+					</tr>
+
+					<tr>
+					<td>GENDER</td>
+					<td>
+							Male <input type="radio" name="Gender" value="Male" />
+							Female <input type="radio" name="Gender" value="Female" />
+					</td>
+					</tr>
+
+					<tr>
+					<td>ADDRESS
+					<br />
+					<br />
+					<br /></td>
+					<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+					</tr>
+
+					<tr>
+					<td colspan="2" align="center">
+							<input type="submit" class ="button"	value="Submit" onclick="return validate()">
+							<input type="reset" class = "button"	value="Reset">
+					</td>
+					</tr>
+				</table>
+
+			</form>
+		</div>
+
+
+	</body>
+</html>	

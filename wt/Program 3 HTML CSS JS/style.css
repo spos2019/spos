@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#f47d42;		
+}
+.square{
+	position : absolute;
+	left : 30%;
+	right : 20%;
+	top : 8%;
+	width: 40%;
+	height : 90%;
+	padding-left : 25px;
+    	Background-color: #ffffff;
+}
+h2{
+	font-family:"Times New Roman";
+	color : red;
+	font-weight:bold;
+}
+table{
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  color:black; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Century Gothic", CenturyGothic,AppleGothic, sans-serif;
+    margin: 4px 2px; 
+    cursor: pointer;
+}
+
+
